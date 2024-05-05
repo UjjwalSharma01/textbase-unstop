@@ -1,0 +1,5 @@
+docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://36f7-35-237-112-104.ngrok-free.app -v open-webui:/app/backend
+/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+
+
+replace base url with current OLLAMA_BASE_URL
